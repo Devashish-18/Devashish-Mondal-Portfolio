@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-label="Acadment logo">
+  <rect width="800" height="320" rx="36" fill="#0F1D3A"/>
+  <rect x="120" y="90" width="180" height="140" rx="24" fill="#FFB84D"/>
+  <path d="M170 98h80v120h-80z" fill="#FF7A00"/>
+  <text x="360" y="150" fill="#F7FBFF" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">ACADMENT</text>
+  <text x="360" y="205" fill="#FFD27A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600">EDUCATION</text>
+</svg>

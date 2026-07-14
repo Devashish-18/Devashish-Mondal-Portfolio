@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-label="Aeren Business School logo">
+  <rect width="800" height="320" rx="36" fill="#0E1730"/>
+  <circle cx="205" cy="160" r="88" fill="#7F7CFF"/>
+  <path d="M155 132h100v56H155z" fill="#ffffff"/>
+  <path d="M180 120l44 44-44 44z" fill="#1D2A4B"/>
+  <text x="360" y="145" fill="#F7FBFF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">AEREN</text>
+  <text x="360" y="198" fill="#A8B3FF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600">BUSINESS SCHOOL</text>
+</svg>

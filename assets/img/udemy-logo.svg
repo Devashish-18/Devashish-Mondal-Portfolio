@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Udemy logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#9B59FF" />
+      <stop offset="1" stop-color="#7A2CFF" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="20" fill="#F0F2F5" />
+  <g transform="translate(20,20)">
+    <path d="M40 6 L60 6 L60 16 L40 16 Z" fill="url(#g)" transform="translate(0,-6) rotate(0 50 10)" />
+    <path d="M48 0 L72 24 L48 24 Z" fill="url(#g)" transform="translate(0,2) scale(0.9)" opacity="1" />
+    <path d="M24 36 C24 24, 48 24, 48 36 C48 48, 24 48, 24 36 Z" fill="#000" transform="translate(0,6) scale(1.2,1.6)" />
+    <!-- stylized U -->
+    <path d="M38 40 C38 52, 70 52, 70 40 L70 56 C70 62, 64 68, 56 68 L52 68 C44 68, 38 62, 38 56 Z" fill="#000" />
+  </g>
+</svg>

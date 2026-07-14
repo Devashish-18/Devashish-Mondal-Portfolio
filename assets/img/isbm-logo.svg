@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-label="ISBM University logo">
+  <rect width="800" height="320" rx="36" fill="#09172f"/>
+  <circle cx="220" cy="160" r="95" fill="#2CA8FF"/>
+  <path d="M180 110h80v100h-80z" fill="#F7FBFF"/>
+  <path d="M210 120l46 60h-46z" fill="#0B1F3A"/>
+  <text x="360" y="145" fill="#F7FBFF" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">ISBM</text>
+  <text x="360" y="195" fill="#74D0FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600">UNIVERSITY</text>
+</svg>

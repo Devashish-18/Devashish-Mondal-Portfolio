@@ -1,0 +1,140 @@
+/* Certifications Section */
+.certifications {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: auto;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.certification-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    border-color: #2563eb;
+}
+
+.certification-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.certification-icon {
+    font-size: 2.5rem;
+    color: #a855f7;
+}
+
+.platform-badge {
+    background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.certification-content h3 {
+    font-size: 1.4rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.instructor {
+    color: #6b7280;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.certification-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: #4b5563;
+    font-size: 0.9rem;
+}
+
+.detail-item i {
+    color: #2563eb;
+    font-size: 1rem;
+}
+
+.certification-description {
+    color: #6b7280;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.certification-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn-small {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive Certifications */
+@media (max-width: 768px) {
+    .certifications {
+        padding: 4rem 0;
+    }
+
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certification-card {
+        padding: 1.5rem;
+    }
+
+    .certification-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .certification-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .certification-details {
+        gap: 0.6rem;
+        padding: 0.8rem;
+    }
+
+    .detail-item {
+        font-size: 0.85rem;
+    }
+}

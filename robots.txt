@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://devashish-18.github.io/Devashish-Mondal-Portfolio/sitemap.xml
